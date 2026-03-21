@@ -281,7 +281,7 @@ export default function Home() {
 
       {/* NAV */}
       <nav className="nav">
-        <a href="/" className="nav-logo"><img src={logo} alt="Jugaad" /></a>
+        <a href="/" className="nav-logo" style={{display:"flex", alignItems:"center"}}><img src={logo} alt="Jugaad" style={{height:32}} /><img src="https://assets.hackclub.com/flag-standalone-bw.svg" alt="Hack Club" style={{height:32, marginLeft:8}} /></a>
         <div className="nav-links">
           <Link to="/examples" className="nav-link">Examples</Link>
           <Link to="/examples#faq" className="nav-link">FAQ</Link>
@@ -308,7 +308,7 @@ export default function Home() {
           </div>
         </FadeIn>
         <div className="scroll-hint">scroll to explore ↓</div>
-        <img src="https://assets.hackclub.com/flag-standalone-bw.svg" alt="Hack Club" style={{ position: "absolute", top: 0, left: "50%", transform: "translateX(-50%)", height: 52, opacity: 0.75, pointerEvents: "none" }} />
+        
       </section>
 
       {/* ── WHAT IS JUGAAD ── */}
