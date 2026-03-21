@@ -189,7 +189,7 @@ export default function Examples() {
         <div className="nav-links">
           <Link to="/" className="nav-link">← Home</Link>
           <a href="#faq" className="nav-link">FAQ</a>
-          <a href="https://airtable.com" className="nav-cta">Submit →</a>
+          <a href="#" className="nav-cta">Submit →</a>
         </div>
       </nav>
 
