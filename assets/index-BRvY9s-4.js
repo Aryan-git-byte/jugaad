@@ -17,7 +17,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
   button { pointer-events:auto; font-family:monospace; }
 
   .hc-flag {
-    position:absolute; top:0; left:50%; transform:translateX(-50%);
+    position:absolute; top:12; left:50%; transform:translateX(-50%);
     height:48px; z-index:20; opacity:0;
     transition:opacity 0.4s ease;
   }
