@@ -9,7 +9,7 @@ function Root() {
   const [entered, setEntered] = useState(false)
   if (!entered) return <Entry onEnter={() => setEntered(true)} />
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/jugaad">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/examples" element={<Examples />} />
